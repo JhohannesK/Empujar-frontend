@@ -2,11 +2,11 @@ export const Constants = {
    PATHS: {
       HOME: "/",
       LOGIN: "/login",
-      ADMINLOGIN: "/adminlogin",
+      ADMINLOGIN: "/admin-login",
       REGISTER: "/register",
-      USERHOMEPAGE: '/userhomepage',
+      USERHOMEPAGE: '/user-home-page',
       ADMINHOMEPAGE: '/admin',
-      FORGETPASSWORD: '/forgetpassword',
+      FORGETPASSWORD: '/forget-password',
       RESET: '/reset',
 
    }
