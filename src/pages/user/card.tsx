@@ -1,11 +1,10 @@
 import { EnvelopeIcon } from '@heroicons/react/20/solid';
-import image from '../../assets/dynamic-wang-NIeeGzOThuM-unsplash.jpg';
 import { ArrowDownTrayIcon } from '@heroicons/react/24/solid';
 import { Iresponse } from '.';
 
 const Card = ({ data }: { data: Iresponse }) => {
 	return (
-		<div className='group h-[30rem] w-[20rem] transition-all duration-300 rounded-md cursor-pointer'>
+		<div className='group h-[30rem] w-[20rem] transition-all duration-300 rounded-md'>
 			<div className='flex flex-col h-full w-full gap-5 mt-10 relative'>
 				<img
 					src={data.imageUrl}
@@ -17,11 +16,13 @@ const Card = ({ data }: { data: Iresponse }) => {
 						{data.description}
 					</div>
 					<div className='w-full px-5 flex items-center justify-between'>
-						<div className='w-full flex justify-start'>
-							<EnvelopeIcon className='h-10 w-10' />
+						<div className='w-full flex justify-start text-white'>
+							<EnvelopeIcon className='h-10 w-10  cursor-pointer' />
+							{data.emailSentCount}
 						</div>
-						<div className='w-full flex items-center justify-end'>
-							<ArrowDownTrayIcon className='h-7 w-10' />
+						<div className='w-full flex items-center justify-end text-white'>
+							<ArrowDownTrayIcon className='h-7 w-10 cursor-pointer' />
+							{data.totalDownloads}
 						</div>
 					</div>
 				</div>

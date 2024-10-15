@@ -51,7 +51,7 @@ const Signup = () => {
 					/>
 					<div className='flex w-full items-center justify-center'>
 						<button className='bg-blue-500 w-[14rem] hover:bg-blue-700 text-white font-bold py-2 px-4 rounded'>
-							Login
+							Sign Up
 						</button>
 					</div>
 					<div className='flex gap-5 text-[16px] justify-center'>
