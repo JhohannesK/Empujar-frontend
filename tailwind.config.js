@@ -53,7 +53,7 @@ export default {
     		}
     	},
     	fontFamily: {
-    		edu: ['Edu SA Beginner', 'cursive']
+    		figTree: ['Figtree', 'cursive']
     	}
     },
 	plugins: [require("tailwindcss-animate")],
