@@ -1,5 +1,4 @@
 import { RouterProvider } from 'react-router-dom';
-import InitialScreen from './pages/auth';
 import routing from './routes';
 
 function App() {
